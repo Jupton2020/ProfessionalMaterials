@@ -6,9 +6,18 @@
  * Made By MaterializeCSS.com
  */
 
+ body {
+  display: flex;
+  min-height: 100vh;
+flex-direction: column;}
+  
+main {
+flex: 1 0 auto;
+}
+
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color:white;
 }
 
 p {
@@ -31,7 +40,7 @@ p {
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
-    position: absolute;
+    /* position: absolute; */
     top: 40%;
   }
   #index-banner .section {
@@ -53,5 +62,8 @@ p {
 }
 
 footer.page-footer {
-  margin: 0;
+  margin: 0 auto;
 }
+ .material-icons{
+   color: teal;
+ }
